@@ -1,3 +1,21 @@
+## ns-flatpickr
+This package is fork from [flatpickr](https://github.com/flatpickr/flatpickr) for some feature for someone need while waiting approve pull request by owner.
+
+## Extended Feature
+- Locale year option for display or in put by using your locale year eg. buddhist year.
+ ```html
+  <script src="./dist/flatpickr.js"></script>
+  <script src="./dist/l10n/th.js"></script>
+
+  <script>
+    var fp = flatpickr(".date", {
+      locale: "th",
+      useLocaleYear: true
+    })
+  </script>
+ ```
+ ![](https://user-images.githubusercontent.com/52820185/180114933-5b003109-da86-48ef-9146-927c396a1f15.png)
+
 ## flatpickr - javascript datetime picker
 [![Actions Status](https://github.com/flatpickr/flatpickr/workflows/GitHub%20Actions/badge.svg)](https://github.com/flatpickr/flatpickr/actions)
 
