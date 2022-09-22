@@ -1,5 +1,5 @@
 ## ns-flatpickr
-This package is fork from [flatpickr](https://github.com/flatpickr/flatpickr) for some feature for someone need while waiting approve pull request by owner.
+This package is forked from [flatpickr](https://github.com/flatpickr/flatpickr) for some feature for someone need while waiting approve pull request by owner.
 
 ## Extended Feature
 - Locale year option for display or in put by using your locale year eg. buddhist year.
