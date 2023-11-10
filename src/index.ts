@@ -965,9 +965,12 @@ function FlatpickrInstance(
       );
     };
 
-    self.monthsDropdownContainer.tabIndex = -1;
+    if(self.monthsDropdownContainer) {
+      self.monthsDropdownContainer.tabIndex = -1;
 
-    self.monthsDropdownContainer.innerHTML = "";
+      self.monthsDropdownContainer.innerHTML = "";
+    }
+    
 
     for (let i = 0; i < 12; i++) {
       if (!shouldBuildMonth(i)) continue;
@@ -989,7 +992,10 @@ function FlatpickrInstance(
         month.selected = true;
       }
 
-      self.monthsDropdownContainer.appendChild(month);
+      if(self.monthsDropdownContainer) {
+        self.monthsDropdownContainer.appendChild(month);
+      }
+      
     }
   }
 
